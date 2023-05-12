@@ -5,7 +5,6 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract Token is ERC20, Ownable {
-    //Slot 1-4
     uint256 immutable public _maxTokens = 1000 ether;
     uint256 public totalTokens;
     string private _symbol;
