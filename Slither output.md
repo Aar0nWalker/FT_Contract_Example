@@ -1,0 +1,40 @@
+INFO:Detectors:
+Token.constructor(string,string).name (contracts/FT_Example.sol#11) shadows:
+        - IERC20Metadata.name() (contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol#8) (function)
+Token.constructor(string,string).symbol (contracts/FT_Example.sol#11) shadows:
+        - ERC20.symbol() (contracts/contracts/token/ERC20/ERC20.sol#27-29) (function)
+        - IERC20Metadata.symbol() (contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol#10) (function)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#local-variable-shadowing
+
+INFO:Detectors:
+solc-0.8.19 is not recommended for deployment
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-versions-of-solidity
+
+INFO:Detectors:
+Function Token.Airdrop(uint256,address) (contracts/FT_Example.sol#22-26) is not in mixedCase
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#conformance-to-solidity-naming-conventions
+
+INFO:Slither:.\contracts\FT_Example.sol analyzed (6 contracts with 85 detectors), 4 result(s) found
+
+INFO:Printers:
+Compiled with solc
+Number of lines: 270 (+ 0 in dependencies, + 0 in tests)
+Number of assembly lines: 0
+Number of contracts: 6 (+ 0 in dependencies, + 0 tests)
+
+Number of optimization issues: 0
+Number of informational issues: 2
+Number of low issues: 2
+Number of medium issues: 0
+Number of high issues: 0
+
+ERCs: ERC20
+
++-------+-------------+-------+--------------------+--------------+----------+
+|  Name | # functions |  ERCS |     ERC20 info     | Complex code | Features |
++-------+-------------+-------+--------------------+--------------+----------+
+| Token |      40     | ERC20 |     ∞ Minting      |      No      |          |
+|       |             |       | Approve Race Cond. |              |          |
+|       |             |       |                    |              |          |
++-------+-------------+-------+--------------------+--------------+----------+
+INFO:Slither:.\contracts\FT_Example.sol analyzed (6 contracts)
