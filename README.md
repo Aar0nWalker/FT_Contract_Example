@@ -15,5 +15,4 @@ ERC20 is a default and well-known fungible token standard. The contract was opti
 
 <h3>To do:</h3>
 
-- Add audit report
 - Add tests
