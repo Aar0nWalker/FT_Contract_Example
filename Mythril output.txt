@@ -1,0 +1,9 @@
+[
+  {
+    "issues": [], 
+    "meta": {"mythril_execution_info": {"analysis_duration": 2060776745558}}, 
+    "sourceFormat": "text", 
+    "sourceList": ["#utility.yul", "contracts/FT/FT_Example.sol", "contracts/FT/lib/Context.sol", "contracts/FT/lib/ERC20.sol", "contracts/FT/lib/IERC20.sol", "contracts/FT/lib/IERC20Metadata.sol", "contracts/FT/lib/Ownable.sol"], 
+    "sourceType": "solidity-file"
+  }
+]
