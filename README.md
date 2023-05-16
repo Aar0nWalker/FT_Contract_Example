@@ -11,8 +11,4 @@ There is a simple FT template made on ERC20 token standard. Contract provides ba
 
 <h3>Core stuff</h3>
 
-ERC20 is a default and well-known fungible token standard. The contract was optimized (but imported libraries wasn't cut considering unused methods) and audited.
-
-<h3>To do:</h3>
-
-- Add tests
+ERC20 is a default and well-known fungible token standard. The contract was optimized (including libraries) and audited. For audit I've used 2 main frameworks: slyther and mythril, reports are in "audit" folder. The test was simply written using brownie and pytest ("tests" folder).
