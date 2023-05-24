@@ -1,7 +1,7 @@
 # FT Contract Example
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Solidity-0.8.19-informational" alt="Solidity Version">
+  <img src="https://img.shields.io/badge/Solidity-0.8.18-informational" alt="Solidity Version">
   <img src="https://img.shields.io/badge/License-MIT-success" alt="License">
 </p>
   
